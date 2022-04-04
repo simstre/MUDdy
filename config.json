@@ -1,0 +1,73 @@
+{
+	"races": {
+		"human": {
+			"baseHealth": 80,
+			"baseAttack": 5,
+			"levelUpMultipliers": {
+				"health": 0.10,
+				"attack": 0.10
+			}
+		},
+		"elf": {
+			"baseHealth": 70,
+			"baseAttack": 6,
+			"levelUpMultipliers": {
+				"health": 0.09,
+				"attack": 0.11
+			}
+		},
+		"dwarf": {
+			"baseHealth": 90,
+			"baseAttack": 4,
+			"levelUpMultipliers": {
+				"health": 0.13,
+				"attack": 0.09
+			}
+		},
+		"orc": {
+			"baseHealth": 120,
+			"baseAttack": 7,
+			"levelUpMultipliers": {
+				"health": 0.08,
+				"attack": 0.07
+			}
+		}
+	},
+	"world": [
+		[
+			{
+				"areaId": "a00",
+				"mapName": "Valley of the Frogs",
+				"cells": [
+					[   {},
+						{
+							"cid": "c01",
+							"x": 1,
+							"y": 0,
+							"desc": "Smells like something's burning"
+						},
+						{}
+					],
+					[
+						{},
+						{
+							"cid": "c11",
+							"x": 1,
+							"y": 1,
+							"desc": "See lots of footprints, I'm not alone"
+						},
+						{}
+					],
+					[
+						{},
+						{},
+						{}
+					]
+				]
+			}
+		],
+		[
+
+		]
+	]
+}
